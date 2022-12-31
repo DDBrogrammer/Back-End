@@ -1,5 +1,8 @@
 # GIỚI THIỆU NHỮNG CÚ PHÁP JAVA CƠ BẢN
-![img_5.png](img_5.png)
+<p align = "center">
+    <img width = 500 src="./image/img_5.png">
+</p>
+
 
 ## Main method
  Điểm khởi đầu để chạy 1 phần mềm java.
