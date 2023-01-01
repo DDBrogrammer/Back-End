@@ -1,24 +1,31 @@
 # Biến và kiểu dữ liệu
-## Variable
-Variable (biến) là 1 đơn vị lưu giữ các giá trị khi chương trình java được thực thi. 
+## `Variable`
+- `Variable` (biến) là 1 đơn vị lưu giữ các giá trị khi chương trình java được thực thi. 
+
 <p align = "center">
     <img width = 80% src="img.png">
 </p>
-Tất cả các biến trong Java đề được gán Data type.
+
+- Tất cả các `Variable` trong `Java` đều được gán `Data type`.
+
 <p align = "center">
     <img width = 80%  src="img_7.png">
 </p>
 
-Cách khai báo 1 biến.
+- Cách khai báo 1 `Variable`.
 
 <p align = "center">
     <img width = 80% src="img_1.png">
 </p>
 
-Variable được chia làm 3 loại chính: Local, Instance and Static.
+- `Variable` được chia làm 3 loại chính: 
+  - `Local`
+  - `Instance` 
+  - `Static`
 
-## Local Variable
-Local Variable (biến cục bộ) là các variable được khai báo ở method, constructor, code block và các variable này chỉ có thể truy cập được ở nơi nó được khai báo.
+## `Local Variable`
+- `Local Variable` (biến cục bộ) là các `variable` được khai báo ở `method`, `constructor`, `code block` và các `variable` này chỉ có thể truy cập được ở nơi nó được khai báo.
+
 ```java
 public class LocalVariableTest {
    public void show() {
@@ -38,8 +45,10 @@ public class LocalVariableTest {
    }
 }
 ```
+
 ## Instance Variable
-Instance Variable các non-static variable được khai báo ở class và không trong method, constructor, code block. Đây là biến thuộc về object mà class sẽ tạo ra (class là bản vẽ tạo ra các object).
+- `Instance Variable` các `non-static variable` được khai báo ở `class` và không trong `method`, `constructor`, `code block`. Đây là biến thuộc về `object` mà `class` sẽ tạo ra (`class` là bản vẽ tạo ra các `object`).
+
 ```java
 package Edureka;
  
@@ -80,9 +89,11 @@ StuThree.printStu();
  
 }
 ```
-## Static Variable
-Static Variable là variable được đánh dấu bằng từ khóa static, tất cả các variable được đánh dấu bởi từ khóa này đều thuộc về class (bản vẽ).
-Biến static chỉ được khởi tạo 1 lần duy nhất khi ứng dụng java bắt đầu chạy. Static Variable thường được dùng để lưu giữ những dữ liệu dùng chung giữa các object.
+
+## `Static Variable`
+- `Static Variable` là `variable` được đánh dấu bằng từ khóa `static`, tất cả các `variable` được đánh dấu bởi từ khóa này đều thuộc về `class` (bản vẽ).
+Biến `static` chỉ được khởi tạo 1 lần duy nhất khi ứng dụng java bắt đầu chạy. `Static Variable` thường được dùng để lưu giữ những dữ liệu dùng chung giữa các `object`.
+
 ```java
 //Java Program to demonstrate the use of static variable  
 class Student{  
@@ -109,12 +120,14 @@ public class TestStaticVariable1{
  }  
 } 
 ```
-## Data type
-Type (kiểu dữ liệu) là 1 cách để phân loại variable. Data type được chia thành 2 loại Primitive Data Type (kiểu dữ liệu nguyên thủy)
-và Non-Primitive Data Type 
+
+## `Data type`
+- `Type` (kiểu dữ liệu) là 1 cách để phân loại `variable`. `Data type` được chia thành 2 loại `Primitive Data Type` (kiểu dữ liệu nguyên thủy)
+và `Non-Primitive Data Type` 
 
 ### Primitive Data Type
-Primitive Data Type (kiểu dữ liệu nguyên thủy) là những type cơ bản, nguyên thủy với size lưu trữ được định sẵn. Chúng là cơ sở để tạo lên các Non-Primitive Data Type.
+- `Primitive Data Type` (kiểu dữ liệu nguyên thủy) là những `type` cơ bản, nguyên thủy với size lưu trữ được định sẵn. Chúng là cơ sở để tạo lên các `Non-Primitive Data Type`.
+
 ```java
 Type	Size	Stores
 byte	1 byte	whole numbers from -128 to 127
@@ -126,35 +139,38 @@ double	8 bytes	fractional numbers;
 boolean	1 bit	true or false values
 char	2 bytes	single character/letter or ASCII values
 ```
-Khi 1 variable được khai báo với Primitive Data Type hãy tưởng tượng ta bỏ những dữ liệu nguyên thủy của ta vào những cái cốc (variable). Những chiếc cốc này sẽ có size to hay nhỏ tùy thuộc vào type mà nó được khai báo.
+- Khi 1 `variable` được khai báo với `Primitive Data Type` hãy tưởng tượng ta bỏ những dữ liệu nguyên thủy của ta vào những cái cốc (`variable`). Những chiếc cốc này sẽ có `size` to hay nhỏ tùy thuộc vào `type` mà nó được khai báo.
+
 ```java
 float dataHolder1=32;
 double dataHolder2=64;
 ```
+
 <p align = "center">
     <img width = 80% src="img_2.png">
 </p>
-Những primitive variable sẽ được lưu trữ ở vùng nhớ Stack (Stack memory).
+
+- Những primitive variable sẽ được lưu trữ ở vùng nhớ Stack (Stack memory).
 
 <p align = "center">
     <img width = 80% src="img_4.png">
 </p>
 
-### Non-Primitive Data Type
-Non-Primitive Data Type những type được tạo bởi Class, Array, Interface, String.
+### `Non-Primitive Data Type`
+- `Non-Primitive Data Type` những `type` được tạo bởi `Class`, `Array`, `Interface`, `String`.
 <p align = "center">
     <img width = 80% src="img_3.png">
 </p>
 
-Khi 1 variable được khai báo với Non-Primitive Data Type chúng được gọi là Reference Variable. Reference Variable không lưu trữ dữ liệu của object chúng lưu địa chỉ của object đó trong vùng nhớ.
-Hãng tưởng tượng rằng những Reference Variable là những chiếc cốc chứa những chiếc điều khiển, những chiếc điều khiển này có thể điều khiển các object được lưu trữ ở vùng nhớ Heap (Heap space).
+- Khi 1 `variable` được khai báo với `Non-Primitive Data Type` chúng được gọi là `Reference Variable`. `Reference Variable` không lưu trữ dữ liệu của `object` chúng lưu địa chỉ của `object`.
+Hãng tưởng tượng rằng những `Reference Variable` là những chiếc cốc chứa những chiếc điều khiển, những chiếc điều khiển này có thể điều khiển các `object` được lưu trữ ở vùng nhớ Heap (`Heap space`).
 
 <p align = "center">
     <img width = 80% src="img_5.png">
 </p>
 
-Như có thể thấy ở hình dưới đây. Các hành động (method, constructor) sẽ được lưu và sắp xếp theo thứ tự ở Call Stack. Tất cả các variable sẽ được lưu ở Stack Memory. Reference Variable lưu giữ địa chỉ (chiếc điều khiển) của object và
-có thể gọi đến các object ở Heap Space.
+- Như có thể thấy ở hình dưới đây. Các hành động (`method`, `constructor`) sẽ được lưu và sắp xếp theo thứ tự ở `Call Stack`. Tất cả các `variable` sẽ được lưu ở `Stack Memory`. `Reference Variable` lưu giữ địa chỉ (chiếc điều khiển) của `object` và
+có thể gọi đến các `object` ở `Heap Space`.
 
 <p align = "center">
     <img width = 80% src="img_6.png">
