@@ -1,32 +1,32 @@
 # GIỚI THIỆU NHỮNG CÚ PHÁP JAVA CƠ BẢN
 
 <p align = "center">
-    <img width = 80% src="img_5.png">
+    <img width = 80% src="images/img_5.png">
 </p>
 
 ## `Main method`
 - Hàm khởi đầu để chạy 1 phần mềm java.
 
 <p align = "center">
-    <img width = 80% src="img_6.png">
+    <img width = 80% src="images/img_6.png">
 </p>
 
 ## `Variable`
 - `variable` (biến) là 1 đơn vị lưu giữ các giá trị khi chương trình java được thực thi.
 
 <p align = "center">
-    <img width = 80% src="img_9.png">
+    <img width = 80% src="images/img_9.png">
 </p>
 
 <p align = "center">
-    <img width = 80%  src="img_4.png">
+    <img width = 80%  src="images/img_4.png">
 </p>
 
 ## `Data type`
 - `Type` (kiểu dữ liệu) là 1 cách để phân loại `variable`.
 
 <p align = "center">
-    <img width = 80%  src="img_7.png">
+    <img width = 80%  src="images/img_7.png">
 </p>
 
 ### `Primative data type`
@@ -52,7 +52,7 @@ char	2 bytes	single character/letter or ASCII values
   - `Interface`
 
 <p align = "center">
-    <img width = 80%  src="img_8.png">
+    <img width = 80%  src="images/img_8.png">
 </p>
 
 ## `Array`
@@ -70,14 +70,14 @@ Vậy thì `object` là gì, `object` là tất cả những thứ tồn tại x
 Java sẽ cung cấp cho chúng ta những công cụ để tạo và điều khiển các `object` tương tác với nhau qua đó xây dựng nên 1 ứng dụng java.
 
 <p align = "center">
-    <img width = 80%  src="img.png">
+    <img width = 80%  src="images/img.png">
 </p>
 
 ## `Packages`
 - `Packages` là nơi chứa các `Class` có liên quan đến nhau.
 
 <p align = "center">
-    <img width = 80%  src="img_11.png">
+    <img width = 80%  src="images/img_11.png">
 </p>
 
 ## `Class`
@@ -85,7 +85,7 @@ Java sẽ cung cấp cho chúng ta những công cụ để tạo và điều kh
 Các đặc điểm và hành động của 1 `object` dog sẽ được thể hiện qua `Attributes` và `Methods`.
 
 <p align = "center">
-    <img width = 80%  src="img_1.png">
+    <img width = 80%  src="images/img_1.png">
 </p>
 
 ```java
@@ -101,7 +101,7 @@ public class Dog {
 - `Attribute` là variable thuộc về object.
 
 <p align = "center">
-    <img width = 80%  src="img_3.png">
+    <img width = 80%  src="images/img_3.png">
 </p>
 
 
@@ -109,7 +109,7 @@ public class Dog {
 - `Method` (`functions`) là một khối code thực hiện những tác vụ cụ thể và sẽ chỉ thực thi khi được gọi, chúng ta có thể chuyền `data` vào trong `method`, những `data` này được gọi là `parameters`.
 
 <p align = "center">
-    <img width = 80%  src="img_2.png">
+    <img width = 80%  src="images/img_2.png">
 </p>
 
 
@@ -117,6 +117,6 @@ public class Dog {
 - Những từ đã có ý nghĩa riêng nhất định trong java và không được đem ra làm tên riêng cho `variable`, `method`, `class` ...
 
 <p align = "center">
-    <img width = 80%  src="img_10.png">
+    <img width = 80%  src="images/img_10.png">
 </p>
 

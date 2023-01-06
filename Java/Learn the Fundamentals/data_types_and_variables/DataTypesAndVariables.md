@@ -3,19 +3,19 @@
 - `Variable` (biến) là 1 đơn vị lưu giữ các giá trị khi chương trình java được thực thi. 
 
 <p align = "center">
-    <img width = 80% src="img.png">
+    <img width = 80% src="images/img.png">
 </p>
 
 - Tất cả các `Variable` trong `Java` đều được gán `Data type`.
 
 <p align = "center">
-    <img width = 80%  src="img_7.png">
+    <img width = 80%  src="images/img_7.png">
 </p>
 
 - Cách khai báo 1 `Variable`.
 
 <p align = "center">
-    <img width = 80% src="img_1.png">
+    <img width = 80% src="images/img_1.png">
 </p>
 
 - `Variable` được chia làm 3 loại chính: 
@@ -147,31 +147,31 @@ double dataHolder2=64;
 ```
 
 <p align = "center">
-    <img width = 80% src="img_2.png">
+    <img width = 80% src="images/img_2.png">
 </p>
 
 - Những primitive variable sẽ được lưu trữ ở vùng nhớ Stack (Stack memory).
 
 <p align = "center">
-    <img width = 80% src="img_4.png">
+    <img width = 80% src="images/img_4.png">
 </p>
 
 ### `Non-Primitive Data Type`
 - `Non-Primitive Data Type` những `type` được tạo bởi `Class`, `Array`, `Interface`, `String`.
 <p align = "center">
-    <img width = 80% src="img_3.png">
+    <img width = 80% src="images/img_3.png">
 </p>
 
 - Khi 1 `variable` được khai báo với `Non-Primitive Data Type` chúng được gọi là `Reference Variable`. `Reference Variable` không lưu trữ dữ liệu của `object` chúng lưu địa chỉ của `object`.
 Hãng tưởng tượng rằng những `Reference Variable` là những chiếc cốc chứa những chiếc điều khiển, những chiếc điều khiển này có thể điều khiển các `object` được lưu trữ ở vùng nhớ Heap (`Heap space`).
 
 <p align = "center">
-    <img width = 80% src="img_5.png">
+    <img width = 80% src="images/img_5.png">
 </p>
 
 - Như có thể thấy ở hình dưới đây. Các hành động (`method`, `constructor`) sẽ được lưu và sắp xếp theo thứ tự ở `Call Stack`. Tất cả các `variable` sẽ được lưu ở `Stack Memory`. `Reference Variable` lưu giữ địa chỉ (chiếc điều khiển) của `object` và
 có thể gọi đến các `object` ở `Heap Space`.
 
 <p align = "center">
-    <img width = 80% src="img_6.png">
+    <img width = 80% src="images/img_6.png">
 </p>
