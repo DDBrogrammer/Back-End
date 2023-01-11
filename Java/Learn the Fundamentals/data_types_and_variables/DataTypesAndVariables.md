@@ -1,4 +1,5 @@
 # Biến và kiểu dữ liệu
+
 ## `Variable`
 - `Variable` (biến) là 1 đơn vị lưu giữ các giá trị khi chương trình java được thực thi. 
 
