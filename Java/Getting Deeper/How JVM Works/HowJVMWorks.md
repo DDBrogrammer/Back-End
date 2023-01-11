@@ -3,13 +3,13 @@
 ## JDK
 - Cấu trúc của JDK
 <p align = "center">
-    <img width = 80%  src="img_1.png">
+    <img width = 80%  src="images/img_1.png">
 </p>
 
 ## Java program execution flow
 
 <p align = "center">
-    <img width = 80%  src="img.png">
+    <img width = 80%  src="images/img.png">
 </p>
 
 - `Source Code`: một phần mềm, ứng dụng được viết với đuôi .java
@@ -41,7 +41,7 @@ Chương trình Java khi biên dịch sẽ tạo ra các mã máy gọi là `byt
   - `Execution Engine`: chuyển các lệnh của `JVM` trong file *.class thành các lệnh của máy, hệ điều hành tương ứng và thực thi chúng.
   
  <p align = "center">
-    <img width = 80%  src="img_4.png">
+    <img width = 80%  src="images/img_4.png">
 </p>
 
 ### `Class Loader`
@@ -57,12 +57,12 @@ Chương trình Java khi biên dịch sẽ tạo ra các mã máy gọi là `byt
   - `Initialization`: Tất cả các `static variables` sẽ được gán giá trị gốc, các `static method` sẽ được thực thi.
 
  <p align = "center">
-    <img width = 80%  src="img_3.png">
+    <img width = 80%  src="images/img_3.png">
 </p>
 
 ### `Runtime Data Area`
  <p align = "center">
-    <img width = 80%  src="img_5.png">
+    <img width = 80%  src="images/img_5.png">
 </p>
 
 - `Runtime Data Area` là nơi lưu trữ và phân chia dữ liệu của JVM bao gồm:
@@ -106,7 +106,7 @@ public class PersonBuilder {
 ```
 
  <p align = "center">
-    <img width = 80%  src="img_6.png">
+    <img width = 80%  src="images/img_6.png">
 </p>
    
 #### `PC Register`
