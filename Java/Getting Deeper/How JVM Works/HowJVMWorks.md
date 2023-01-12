@@ -124,4 +124,3 @@ public class PersonBuilder {
     - `Code Optimizer`: tối ưu code `intermediate code`.
     - `Target Code Generator`: chuyển `intermediate code` thành `native machine code`.
   - `Garbage Collector`: xóa các object không được tham chiếu trong bộ nhớ.
-
