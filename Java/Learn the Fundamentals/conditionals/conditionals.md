@@ -14,8 +14,12 @@ public class LocalVariableTest {
       } else {
           System.out.println("b is bigger");
       }
-   }/// print b is bigger
+   }
 }
+```
+
+```shell
+b is bigger
 ```
 
 ## `if statement` 
@@ -23,26 +27,29 @@ public class LocalVariableTest {
 điều kiện sau
 
 ```java
-public class IfExample {
-    public class Day {
-        public String day;
+public class Day {
+    public String day;
 
-        public Day(String newDay) {
-            day = newDay;
-        }
+    public Day(String newDay) {
+        day = newDay;
+    }
 
-        public void whatToDo() {
-            if (day == "Monday") { // Condition
-                // Decision
-                System.out.println("Go to School");
-            }
+    public void whatToDo() {
+        if (day == "Monday") { // Condition
+            // Decision
+            System.out.println("Go to School");
         }
     }
+
     public static void main(String[] args) {
         Day monday = new Day("Monday");
-        monday.whatToDo();/// print "Go to School"
+        monday.whatToDo();
     }
 }
+```
+
+```shell
+Go to School
 ```
 
 - Biểu thức `if` chỉ đơn giản là so sánh xem điều kiện (hoặc các điều kiện) được 
@@ -58,32 +65,36 @@ public class IfExample {
 - Khi mà `if` hay tất cả `else if` đều trả về là false thì `else block` sẽ được executes
 
 ```java
-public class IfElseExample {
-    public class Weather {
-        public String weather;
+public class Weather {
+    public String weather;
 
-        public Weather(String todayWeather) {
-            weather = todayWeather;
-        }
+    public Weather(String todayWeather) {
+        weather = todayWeather;
+    }
 
-        public void whatToDo() {
-            // 1st condition
-            if (weather == "Sunny") {
-                // Decision
-                System.out.println("Read in the Library");
-            } else {
-                // Default Decision
-                System.out.println("Get some Sleep");
-            }
+    public void whatToDo() {
+        // 1st condition
+        if (weather == "Sunny") {
+            // Decision
+            System.out.println("Read in the Library");
+        } else {
+            // Default Decision
+            System.out.println("Get some Sleep");
         }
     }
+
     public static void main(String[] args) {
         Weather sunny = new Weather("Sunny");
         Weather storm = new Weather("Storm");
-        sunny.whatToDo();/// print "Read in the Library"
-        storm.whatToDo();/// print "Get some Sleep"
+        sunny.whatToDo();
+        storm.whatToDo();
     }
 }
+```
+
+```shell
+Read in the Library
+Get some Sleep
 ```
 
 <p align = "center">
@@ -94,46 +105,52 @@ public class IfElseExample {
 - `else if` được dùng để check nhiều điều kiện cùng 1 lúc.
 
 ```java
-public class IfElseIfExample {
-    public class Weather {
-        public String weather;
+public class Weather {
+    public String weather;
 
-        public Weather(String todayWeather) {
-            weather = todayWeather;
+    public Weather(String todayWeather) {
+        weather = todayWeather;
+    }
+
+    public void whatToDo() {
+        // 1st condition
+        if (weather == " Sunny") {
+            // Decision
+            System.out.println("Read in the Library");
         }
-
-        public void whatToDo() {
-            // 1st condition
-            if (weather == " Sunny") {
-                // Decision
-                System.out.println("Read in the Library");
-            }
-            // 2nd condition
-            else if (weather == "Raining") {
-                //decision
-                System.out.println("Read at Home");
-            }
-            // 3rd condition
-            else if (weather == "Cloudy") {
-                // Decision
-                System.out.println("Read in the Garden");
-            } else {
-                // Default Decision
-                System.out.println("Get some Sleep");
-            }
+        // 2nd condition
+        else if (weather == "Raining") {
+            //decision
+            System.out.println("Read at Home");
+        }
+        // 3rd condition
+        else if (weather == "Cloudy") {
+            // Decision
+            System.out.println("Read in the Garden");
+        } else {
+            // Default Decision
+            System.out.println("Get some Sleep");
         }
     }
+
     public static void main(String[] args) {
         Weather sunny = new Weather("Sunny");
         Weather raining = new Weather("Raining");
         Weather cloudy = new Weather("Cloudy");
         Weather storm = new Weather("Storm");
-        sunny.whatToDo();/// print "Read in the Library"
-        raining.whatToDo();/// print "Read at Home"
-        cloudy.whatToDo();/// print "Read in the Garden"
-        storm.whatToDo();/// print "Get some Sleep"
+        sunny.whatToDo();
+        raining.whatToDo();
+        cloudy.whatToDo();
+        storm.whatToDo();
     }
 }
+```
+
+```shell
+Read in the Library
+Read at Home
+Read in the Garden
+Get some Sleep
 ```
 
 <p align = "center">
@@ -145,44 +162,94 @@ public class IfElseIfExample {
 được thực thi là khi điều kiện của `outer` if block là `true`.
 
 ```java
-public class NestedIfExample {
-    public class Weather {
-        public String weather;
-        private String friend;
-        
-        public Weather(String todayWeather) {
-            weather = todayWeather;
-        }
-        
-        public void setFriend (String myFriend) {
-            friend = myFriend;
-        }
-        
-        public void whatToDo() {
-            // 1st condition
-            if (weather == "Sunny") {
-                if (friend == "Dai") {
-                    // Decision
-                    System.out.println("Đi nét");
-                } else {
-                    System.out.println("Read in the Library");
-                }
+public class Weather {
+    public String weather;
+    private String friend;
+
+    public Weather(String todayWeather) {
+        weather = todayWeather;
+    }
+
+    public void setFriend(String myFriend) {
+        friend = myFriend;
+    }
+
+    public void whatToDo() {
+        // 1st condition
+        if (weather == "Sunny") {
+            if (friend == "Dai") {
+                // Decision
+                System.out.println("Đi nét");
             } else {
-                // Default Decision
-                System.out.println("Get some Sleep");
+                System.out.println("Read in the Library");
             }
+        } else {
+            // Default Decision
+            System.out.println("Get some Sleep");
         }
     }
+
     public static void main(String[] args) {
         Weather sunny = new Weather("Sunny");
         Weather storm = new Weather("Storm");
         sunny.setFriend("Dai");
-        sunny.whatToDo();/// print "Đi nét"
-        storm.whatToDo();/// print "Get some Sleep"
+        sunny.whatToDo();
+        storm.whatToDo();
     }
 }
 ```
 
+```shell
+Đi nét
+Get some Sleep
+```
+
 <p align = "center">
     <img width = 50% src="images/img_4.png">
+</p>
+
+## `Switch`
+- `Switch` là một phiên bản khác của câu lệnh `if`. Nó làm cho code trông sạch hơn 
+và dễ đọc hơn so với các câu lệnh điều kiện `if`, `else if` và `else`
+- Trong `switch expression`, mỗi block được kết thúc bằng một từ khóa `break`. Các 
+câu lệnh trong `switch` được expressed với `cases`.
+
+```java
+public class Day {
+    public int day;
+
+    public Day(int date) {
+        day = date;
+    }
+
+    public void whatToDo() {
+        switch (day) {
+            case 1:
+                Console.WriteLine("Read in the Library");
+                break;
+            case 2:
+                Console.WriteLine("Read at Home");
+                break;
+            case 3:
+                Console.WriteLine("Read in the Garden");
+                break;
+            default:
+                Console.WriteLine("Get some Sleep");
+                break;
+        }
+    }
+
+    public static void main(String[] args) {
+        Day day1 = new Day(3);
+        day1.whatToDo();
+    }
+}
+```
+
+```shell
+Read in the Garden
+```
+
+<p align = "center">
+    <img src="images/img_5.png">
 </p>
