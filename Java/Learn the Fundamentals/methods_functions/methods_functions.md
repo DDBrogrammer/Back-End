@@ -10,19 +10,18 @@ nhiều lần.
 - Trong 1 `method` thường sẽ có tới 6 thành phần:
   - `Access Specifier:`định nghĩa kiểu truy cập của `methods`, tức là từ nơi nào mà 
   nó có thể được truy cập trong application. Trong Java, có 4 kiểu access specifier
-    - public: Tất cả các `class` đều có thể truy cập được đến `method` này
-    - protected: `method` này chỉ có thể truy cập được trong cùng một `package` hoặc 
+    - `public`: Tất cả các `class` đều có thể truy cập được đến `method` này
+    - `protected`: `method` này chỉ có thể truy cập được trong cùng một `package` hoặc 
     các `subclass`(class con) trong một `package` khác
-    - private: `method` này chỉ có thể truy cập được trong các `class` mà nó được 
-    defined.
-    - default: Khi mà ko sử dụng bất cứ `access specifier`, Java sẽ gán 1 `default 
+    - `private`: `method` này chỉ có thể truy cập được trong `class` mà nó được defined.
+    - `default`: Khi mà ko sử dụng bất cứ `access specifier`, Java sẽ gán 1 `default 
     access specifier` cho method đó. Nó có thể truy cập được trong cùng một `class` 
     và `package` chứa nó.
   - `Return Type:`là kiểu dữ liệu mà `method` trả về. Nó có thể có kiểu `primitive 
   data type`, `object`, `collection`, `void`, v.v. Nếu `method` không trả về bất cứ 
   thứ gì, chúng ta sử dụng từ khóa `void`.
   - `Parameter List:` Là danh sách các `paramater` được phân tách bằng dấu phẩy`,`và 
-  được đặt trong cặp dấu ngoặc đơn`()`. Nó chứa`data types`và tên biến. Nếu phương 
+  được đặt trong cặp dấu ngoặc đơn`()`. Nó chứa`data types`và tên `paramater`. Nếu phương 
   thức không có`paramater`, để trống dấu ngoặc đơn.
   - `Exception List:` Các `exceptions` method có thể `throw`.
   - `Method Body:` Chứa tất cả các hành động cần được thực hiện. Nó được đặt trong 
@@ -34,7 +33,7 @@ nhiều lần.
 
 ## `Naming a Method`
 - Tên `method` phải là một động từ và bắt đầu bằng một chữ cái viết thường. Nếu tên 
-`method` có nhiều hơn hai từ, tên đầu tiên phải là một động từ theo sau là tính từ 
+`method` có nhiều hơn hai từ, từ đầu tiên phải là một động từ theo sau là tính từ 
 hoặc danh từ và chữ cái đầu tiên của mỗi từ phải viết hoa chữ từ đầu tiên. Ví dụ:
 
 ```shell
@@ -120,7 +119,7 @@ Enter the number: 3
 # `More Method Types`
 ## `Static Method`
 - Một `method` có từ khóa `static` đứng trước được gọi là `static method`. Nói cách 
-khác, một `method` thuộc về một `class` chứ không phải là `intance` của một `class` 
+khác, một `method` thuộc về một `class` chứ không phải là `instance` của một `class` 
 được gọi là một `static method`.
 - Ưu điểm chính của`static method`là có thể gọi nó mà không cần tạo`object`. Nó được
 gọi đến bằng cách sử dụng tên`class`.
@@ -140,9 +139,9 @@ It is an example of a static method.
 ```
 
 ## `Instance Method`
-- `method` của `class` được gọi là `instance method`. Nó là một `non-static` method 
-được định nghĩa trong `class`. Trước khi gọi đến `instance method`, cần tạo một 
-`object`cho`class`của nó.
+- `method` của `object` được tạo ra từ`class` được gọi là `instance method`. Nó là 
+một `non-static` method được định nghĩa trong `class`. Trước khi gọi đến `instance 
+method`, cần tạo một`object`cho`class`của nó.
 
 ```java
 public class InstanceMethodExample {
