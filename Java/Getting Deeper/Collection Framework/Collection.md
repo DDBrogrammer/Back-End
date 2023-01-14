@@ -9,7 +9,7 @@
 - `Package java.util` chứa tất cả các `class` và `interface` của `Collection Framework`.
 
  <p align = "center">
-    <img width = 80%  src="img.png">
+    <img width = 80%  src="images/img.png">
 </p>
 
 ### `Iterable interface`
@@ -74,7 +74,7 @@ List <data-type> list4 = new Stack();
 - `dynamic array` là `array` mà sẽ tự động tăng sức chứa `capacity` theo `size`.
 
  <p align = "center">
-       <img width = 80%  src="img_2.png">
+       <img width = 80%  src="images/img_2.png">
 
 </p>
 
@@ -109,7 +109,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 #### `LinkedList`
 - `LinkedList` là 1 trong những `class` triển khai của `List Interface`. `LinkedList` sử dụng `doubly linked list` để lưu `elements` và có thể lưu element trùng lặp.
  <p align = "center">
-    <img width = 80%  src="img_1.png">
+    <img width = 80%  src="images/img_1.png">
 </p>
 
 - `LinkedList` là  `non-synchronized` và `non-Thread-safe` không an toàn về `thread`, một `object` `LinkedList` có thể truy cập bởi nhiều `thread`trong cùng 1 thời điểm.
@@ -170,7 +170,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html
 #### `Stack`
 - `Stack` là `class` con của `Vector`, `Stack` triển khai cấu trúc dữ liệu `LIFO`(`last-in-first-out`).
  <p align = "center">
-    <img width = 80%  src="img_3.png">
+    <img width = 80%  src="images/img_3.png">
 </p>
 
 - Vì là con của `Vector`, `Stack` có tất cả `method` giống như `vector` thêm vào đó là các `methods` liên quan đến `LIFO`:
@@ -215,8 +215,8 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
 - `Queue Interface` là `interface` theo cấu trúc `FIFO`(`first-in-first-out`).
 - `FIFO`: `element` vào trước sẽ ra trước, vào sau ra sau.
  <p align = "center">
-    <img width = 80%  src="img_4.png">
-    <img width = 80%  src="img_5.png">
+    <img width = 80%  src="images/img_4.png">
+    <img width = 80%  src="images/img_5.png">
 </p>
 
 - Một số `method` đáng chú ý trong `Queue`:
@@ -239,7 +239,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html#element--
 - `PriorityQueue` là 1 trong những `class` triển khai của `Queue Interface`. `PriorityQueue` lưu các `elements` vào `Queue` theo mức độ ưu tiên.
 - `PriorityQueue` không nhận `element` mang giá trị `null`.
  <p align = "center">
-    <img width = 80%  src="img_6.png">
+    <img width = 80%  src="images/img_6.png">
 </p>
 
 ```java
@@ -351,7 +351,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
 - `Deque interface` kế thừa `Queue interface`. `Deque` cung cấp khả năng thêm và loại bỏ `element` ở cả 2 đầu của `Queue`
 
  <p align = "center">
-    <img width = 80%  src="img_7.png">
+    <img width = 80%  src="images/img_7.png">
 </p>
 
 ```java
@@ -401,7 +401,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Set.html
 - `HashSet` chỉ lưu các `elements` riêng biệt không trùng lặp.
 
  <p align = "center">
-    <img width = 80%  src="img_8.png">
+    <img width = 80%  src="images/img_8.png">
 </p>
 
 ```java
@@ -472,6 +472,11 @@ https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html
 - `TreeSet` triển khai `SortedSet Interface` và sử dụng cấu trúc dữ liệu `tree` để lưu các `elements`.
 - `Tree` là một cấu trúc dữ liêụ phi tuyến tính, một mô hình tree là một hệ thống phân cấp bao gồm các `nodes`, mỗi `node`sẽ
 lưu trữ dữ liệu và danh sách các nhánh(`edge`) trỏ tới các `node` khác.
+
+<p align = "center">
+    <img width = 80%  src="images/image_10.png">
+</p>
+
 - `TreeSet` lưu các `elements` không trùng lặp và được sắp xếp theo thứ tự tăng dần.
 
 ```java
@@ -499,7 +504,5 @@ Vijay
 ```
 https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html
  
-<p align = "center">
-    <img width = 80%  src="image_10.png">
-</p>
+
 
