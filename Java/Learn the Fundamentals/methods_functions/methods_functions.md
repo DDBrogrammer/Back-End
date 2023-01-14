@@ -171,20 +171,30 @@ Nó có nghĩa là bản thân`class`phải`abstract` nếu như nó có`abstrac
 một`abstract method,`chỉ đơn giản sử dụng từ khóa `abstract`.
 
 ```java
-abstract class Demo { //abstract class  
+abstract class Animal { //abstract class  
     //abstract method declaration  
-    abstract void display();  
+    abstract void run();  
 }  
-public class MyClass extends Demo {
-    //method impelmentation
-    void display() {
-        System.out.println("Abstract method?");  
-    }
+public class Dog extends Animal {
+  //method impelmentation
+  void run() {
+    System.out.println("Run with four leg");
+  }
+}
+public class Human extends Animal {
+  //method impelmentation
+  void run() {
+    System.out.println("Run with two leg");
+  }
+}
+public class RunDemo {
     public static void main(String[]args) {
         //creating object of abstract class  
-        Demo obj = new MyClass();  
+        Dog dog = new Dog();
+        Human human = new Human();
         //invoking abstract method  
-        obj.display();  
+        dog.run();
+        human.run();
     }
 }
 ```
