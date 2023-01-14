@@ -1,5 +1,5 @@
 # Loops
-- Trong lập trình, vòng lặp được sử dụng để lặp lại một`block code.`Ví dụ: nếu muốn
+- Trong lập trình, vòng lặp được sử dụng để lặp lại một`block code`. Ví dụ: nếu muốn
 hiển thị một thông báo 100 lần, thì thay vì nhập cùng một mã 100 lần, ta có thể sử 
 dụng vòng lặp.
 - Trong Java, có 3 kiểu loops:
@@ -20,7 +20,7 @@ for (initialExpression; condition; updateExpression) {
 `body`sẽ được execute, ngược lại nếu`condition = false`--> vòng lặp ko chạy
 3. `updateExpression:`cập nhật giá trị của `initialExpression.`-->`condition`sẽ được
 `check`lại
-4. `body`: là`block code`của vòng lặp.`block code`này sẽ chạy lặp đi lặp lại cho đến 
+4. `body:` là`block code`của vòng lặp.`block code`này sẽ chạy lặp đi lặp lại cho đến 
 khi nào `condition = false` --> vòng lặp chấm dứt
 
 <p align = "center">
@@ -46,8 +46,8 @@ Java is not fun
 Java is not fun
 ```
 ### `for-each Loop`
-- Vòng`for loop`của Java có một kiểu syntax khác để giúp dễ dàng lặp qua các`arrays` 
-và `collection`.
+- Vòng`for loop`của Java có một kiểu syntax khác để giúp dễ dàng lặp qua các`arrays`
+và`collection`.
 ```java
 public class Example{
     public static void main(String[] args) {
@@ -75,7 +75,7 @@ while (condition) {
 }
 ```
 1. `while loop`sẽ check`condition.` 
-2. `condtion = true:` --> `body` sẽ được executed
+2. `condtion = true` --> `body` sẽ được executed
 3. `condtion` sẽ được check lại
 4. Lặp lại process
 5. `condition = false` --> vòng lặp dừng chạy
@@ -113,7 +113,7 @@ do {
 } while(condition);
 ```
 1. `body` sẽ được executed, sau đó thì `condition` sẽ được check
-2. `condtion = true:` --> `body` sẽ được executed lại
+2. `condtion = true` --> `body` sẽ được executed lại
 3. `condition` sẽ lại được check lần nữa
 4. Lặp lại process
 5. `condition = false` --> vòng lặp dừng chạy
