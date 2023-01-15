@@ -10,11 +10,11 @@ nhiều lần.
 - Trong 1 `method` thường sẽ có tới 6 thành phần:
   - `Access Specifier:`định nghĩa kiểu truy cập của `methods`, tức là từ nơi nào mà 
   nó có thể được truy cập trong application. Trong Java, có 4 kiểu access specifier
-    - `public`: Tất cả các `class` đều có thể truy cập được đến `method` này
-    - `protected`: `method` này chỉ có thể truy cập được trong cùng một `package` hoặc 
+    - `public:` Tất cả các `class` đều có thể truy cập được đến `method` này
+    - `protected:` `method` này chỉ có thể truy cập được trong cùng một `package` hoặc 
     các `subclass`(class con) trong một `package` khác
-    - `private`: `method` này chỉ có thể truy cập được trong `class` mà nó được defined.
-    - `default`: Khi mà ko sử dụng bất cứ `access specifier`, Java sẽ gán 1 `default 
+    - `private:` `method` này chỉ có thể truy cập được trong `class` mà nó được defined.
+    - `default:` Khi mà ko sử dụng bất cứ `access specifier`, Java sẽ gán 1 `default 
     access specifier` cho method đó. Nó có thể truy cập được trong cùng một `class` 
     và `package` chứa nó.
   - `Return Type:`là kiểu dữ liệu mà `method` trả về. Nó có thể có kiểu `primitive 
@@ -49,7 +49,7 @@ Cũng có thể một`method`có cùng tên với một tên `method` khác tron
 - Có 2 dạng `method` trong Java
 
   ### `Predefined Method`
-  - Là các `method` đã được defined trước trong các `Java class libraries.` Nó còn 
+  - Là các `method` đã được defined trước trong các `Java class libraries`. Nó còn 
   được gọi là `standard library method` hoặc `built-in method`. Chúng ta có thể trực 
   tiếp sử dụng các `method` này chỉ bằng cách gọi chúng trong chương trình tại bất kỳ
   thời điểm nào, ví dụ như là .print(), .length(), .min(), .max(), .sqrt(), v.v.
@@ -68,7 +68,7 @@ Cũng có thể một`method`có cùng tên với một tên `method` khác tron
   
   ### `User-defined Method`
   - Là các`method`được viết bởi người dùng hoặc lập trình viên. Các`method`này được 
-  chỉnh sửa để phù hợp với `requirement.`
+  chỉnh sửa để phù hợp với `requirement`.
 
   ```java
   public class Demo {
@@ -165,10 +165,10 @@ The sum is: 22
 ```
 
 ## `Abstract Method`
--  `method`mà ko có`method body`được gọi là`abstract method.`Nói cách khác, ko có 
+-  `method`mà ko có`method body`được gọi là`abstract method`. Nói cách khác, ko có 
 triển khai được thì là`abstract method.`Nó luôn được khai báo trong`abstract class`.
 Nó có nghĩa là bản thân`class`phải`abstract` nếu như nó có`abstract method`. Để tạo 
-một`abstract method,`chỉ đơn giản sử dụng từ khóa `abstract`.
+một`abstract method`, chỉ đơn giản sử dụng từ khóa `abstract`.
 
 ```java
 abstract class Animal { //abstract class  
