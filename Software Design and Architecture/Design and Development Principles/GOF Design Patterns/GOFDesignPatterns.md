@@ -1,5 +1,11 @@
 # Gang of Four Design Patterns
 ## Introduction
+- Hello :grin:
+
+<i class="fab fa-markdown"></i>
+
+
+## Introduction
 - `Design patterns` là các giải pháp hoặc khuôn mẫu thiết kế dành cho các vấn đề thường gặp trong lập trình.
 ## Be Careful
 - `Design patterns` không phải là giải pháp cho toàn bộ vấn đề khi lập trình.
