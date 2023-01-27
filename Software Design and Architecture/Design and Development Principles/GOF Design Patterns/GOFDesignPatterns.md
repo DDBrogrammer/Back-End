@@ -2,13 +2,23 @@
 ## Introduction
 - Hello :grin:, DDBrogrammer chào mừng bạn đến với series Design Patterns. Trong series này chúng ta sẽ cùng nhau lĩnh hội bí kíp võ công của coder: `Gang of Four Design Patterns`.
 - Vậy `Design patterns` là gì ? :thinking:. Trong giới lập trình thì các coder đang hành tẩu giang hồ đều sẽ phải gặp và giải quyết các vấn đề, trong quá trình này các coder 
-tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu thiết kế để giải quyết các vấn để thường gặp trong lập trình cho các coder thế hệ sau.
-  <iframe src="https://giphy.com/embed/LRgPLr2VvBre9W10vW" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dreamworks-scared-why-kung-fu-panda-LRgPLr2VvBre9W10vW">via GIPHY</a></p>
+tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu thiết kế để giải quyết các vấn để thường gặp cho các coder thế hệ sau.
+
+ <p align = "center">
+    <img width = 80%  src="img.png">
+</p>
+
+- Lĩnh hội được `Design patterns` sẽ giúp chúng ta giải quyết vấn đề nhanh và hiệu quả hơn.
+
 ## Be Careful
-- `Design patterns` không phải là giải pháp cho toàn bộ vấn đề khi lập trình.
-- Đừng cố để dùng `Design patterns` mọi lúc một cách miễn cưỡng.
-- `Design patterns` có thể là giải pháp cho vấn đề hiện tại nhưng đồng thời có thể tạo ra thêm vấn đề mới.
-- Hiểu được `Design patterns` và áp dụng một cách hợp lý, tối ưu là vô cùng quan trọng, nếu không `Design patterns` sẽ là con dao 2 lưỡi, khiến cho vấn đề trở nên phức tạp hơn.
+
+ <p align = "center">
+    <img width = 80%  src="img_1.png">
+</p>
+
+- Học một loại võ một cách gò bó, ép buộc rất dễ gây tẩu hỏa nhập ma. Đối với `Design patterns` học hời hợt, áp dụng sai hoặc không cần thiết cũng dễ gây ra phản tác dụng.
+  - `Design patterns` không phải là giải pháp cho toàn bộ vấn đề khi lập trình. Chìa khóa là chúng ta phải hiểu vấn đề trước, sau đó mới lên kế hoạch đưa ra giải pháp, trong lúc tìm kiếm giải pháp mới xem xét đến `Design patterns`. 
+  -  Võ công dù mạng nhưng cũng có thể đồng thời gây tổn hại cho người sử dụng. `Design patterns` có thể là giải pháp cho vấn đề hiện tại nhưng đồng thời có thể tạo ra thêm vấn đề mới.Hiểu được `Design patterns` và áp dụng một cách hợp lý, tối ưu là vô cùng quan trọng, nếu không `Design patterns` sẽ là con dao 2 lưỡi, khiến cho vấn đề trở nên phức tạp hơn.
 
 ## Types of Design Patterns
 - `Design Patterns` được chia thành 3 loại, bao gồm:
