@@ -1,12 +1,9 @@
 # Gang of Four Design Patterns
 ## Introduction
-- Hello :grin:
-
-<i class="fab fa-markdown"></i>
-
-
-## Introduction
-- `Design patterns` là các giải pháp hoặc khuôn mẫu thiết kế dành cho các vấn đề thường gặp trong lập trình.
+- Hello :grin:, DDBrogrammer chào mừng bạn đến với series Design Patterns. Trong series này chúng ta sẽ cùng nhau lĩnh hội bí kíp võ công của coder: `Gang of Four Design Patterns`.
+- Vậy `Design patterns` là gì ? :thinking:. Trong giới lập trình thì các coder đang hành tẩu giang hồ đều sẽ phải gặp và giải quyết các vấn đề, trong quá trình này các coder 
+tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu thiết kế để giải quyết các vấn để thường gặp trong lập trình cho các coder thế hệ sau.
+  <iframe src="https://giphy.com/embed/LRgPLr2VvBre9W10vW" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dreamworks-scared-why-kung-fu-panda-LRgPLr2VvBre9W10vW">via GIPHY</a></p>
 ## Be Careful
 - `Design patterns` không phải là giải pháp cho toàn bộ vấn đề khi lập trình.
 - Đừng cố để dùng `Design patterns` mọi lúc một cách miễn cưỡng.
