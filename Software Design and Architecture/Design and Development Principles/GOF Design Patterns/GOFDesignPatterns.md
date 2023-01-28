@@ -1,13 +1,12 @@
 # Gang of Four Design Patterns
 ## Introduction
-- Hello :grin:, DDBrogrammer chào mừng bạn đến với series Design Patterns. Trong series này chúng ta sẽ cùng nhau lĩnh hội bí kíp võ công của coder: `Gang of Four Design Patterns`.
-- Vậy `Design patterns` là gì ? :thinking:. Trong giới lập trình thì các coder đang hành tẩu giang hồ đều sẽ phải gặp và giải quyết các vấn đề, trong quá trình này các coder 
-tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu thiết kế để giải quyết các vấn để thường gặp cho các coder thế hệ sau.
-
  <p align = "center">
     <img width = 80%  src="img.png">
 </p>
 
+- Hello :grin:, DDBrogrammer chào mừng bạn đến với series Design Patterns. Trong series này chúng ta sẽ cùng nhau lĩnh hội bí kíp võ công của coder: `Gang of Four Design Patterns`.
+- Vậy `Design patterns` là gì ? :thinking:. Trong giới lập trình thì các coder đang hành tẩu giang hồ đều sẽ phải gặp và giải quyết các vấn đề, trong quá trình này các coder 
+tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu thiết kế để giải quyết các vấn để thường gặp cho các coder thế hệ sau.
 - Lĩnh hội được `Design patterns` sẽ giúp chúng ta giải quyết vấn đề nhanh và hiệu quả hơn.
 
 ## Be Careful
@@ -26,7 +25,12 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
   - `Structural`
   - `Behavioral`
 ### Creational Design Patterns
-- `Creational Design Patterns` là `Design Patterns` tập trung vào việc tạo ra các `object` và nhóm các `object` có mối quan hệ với nhau một cách khoa học, dễ bảo trì.
+
+ <p align = "center">
+    <img width = 80%  src="img_2.png">
+</p>
+
+- `Creational Design Patterns` cung cấp một giải pháp để tạo ra các `object` và che giấu được logic của việc tạo ra nó.
 - `Creational Design Patterns` bao gồm:
   - `Simple Factory`
   - `Factory Method`
@@ -35,7 +39,12 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
   - `Prototype`
   - `Singleton`
 ### Structural Design Patterns
-- `Structural Design Patterns` tập trung vào tổ chức, cấu trúc các `class`, `object` sao cho linh hoạt, ngăn nắp dễ dàng thích nghi với thay đổi.
+
+ <p align = "center">
+    <img width = 80%  src="img_3.png">
+</p>
+
+- `Structural Design Patterns` tập trung vào tổ chức, cấu trúc các `class` và thành phần của `object`.
 - `Structural Design Patterns` bao gồm:
   - `Adapter`
   - `Bridge`
@@ -45,7 +54,12 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
   - `Flyweight`
   - `Proxy`
 ### Behavioral Design Patterns
-- `Behavioral Design Patterns` tập trung vào giải quyết các vấn đề liên quan đến hành vi, phân chia trách nhiệm giữa các `object`
+
+ <p align = "center">
+    <img width = 80%  src="img_5.png">
+</p>
+
+- `Behavioral Design Patterns` dùng trong thực hiện các hành vi của `object`, sự giao tiếp giữa các `object` với nhau.
 - `Behavioral Design Patterns` bao gồm:
   - `Chain of Responsibility`
   - `Command`

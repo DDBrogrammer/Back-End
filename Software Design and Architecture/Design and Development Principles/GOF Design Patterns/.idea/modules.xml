@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GOF Design Patterns.iml" filepath="$PROJECT_DIR$/.idea/GOF Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/observer/observer.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/observer/observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/strategy/strategy.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/strategy/strategy.iml" />
     </modules>
   </component>
 </project>
