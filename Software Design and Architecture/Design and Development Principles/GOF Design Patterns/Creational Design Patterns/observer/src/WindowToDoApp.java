@@ -1,10 +1,8 @@
 public class WindowToDoApp implements Observer{
-    private int taskNumber;
 
-    private String notification;
-    
     @Override
-    public void update() {
-
+    public void update(String appData) {
+        System.out.println("Window app data update :D");
+        System.out.println(appData);
     }
 }
