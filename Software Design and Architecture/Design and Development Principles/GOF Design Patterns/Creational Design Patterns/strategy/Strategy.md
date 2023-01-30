@@ -1,7 +1,7 @@
 # Strategy
 
  <p align = "center">
-    <img width = 80%  src="img_1.png">
+    <img width = 80%  src="images/img_1.png">
 </p>
 
 ## Information
@@ -10,7 +10,7 @@
 
 ## Problem 
 <p align = "center">
-    <img width = 80%  src="img_2.png">
+    <img width = 80%  src="images/img_2.png">
 </p>
 
 - Gỉa sử chúng ta tạo ra 1 game đối kháng online, ban đầu lúc game mới tạo ra, các nhân vật có các move rất cơ bản. 
@@ -18,7 +18,7 @@
 
 
 <p align = "center">
-    <img width = 80%  src="img.png">
+    <img width = 80%  src="images/img.png">
 </p>
 
 - Sau một vài bản update, `coder` được yêu cầu viết thêm các move() đặc biệt như bay, hay nhảy, một nhân vật còn không thể di chuyển để làm đa dạng lối chơi. Một số nhân vật khác lại vẫn có thể dùng chung move() của nhân vật cũ.
@@ -30,16 +30,26 @@ Vậy tại sao lại không giúp các `class` nhân vật của chúng ta di c
 - Đây chính là lúc áp dụng `Strategy pattern`, hãy cùng xem thiết kế này có gì nào.
 
 <p align = "center">
-    <img width = 80%  src="img_3.png">
+    <img width = 80%  src="images/img_3.png">
 </p>
 
 - Thiết kế bao gồm:
-  - `Interface` gọi là `Strategy` chứa hàm để thực thi `method` mà chúng ta muốn flexible.
-  - Các `class` (thuật toán) khác nhau sẽ triển khai `Interface Strategy` và viết lại `method` của `Interface`. Bây giờ ta đã có một `Interface` đại điện cho một hành động, khi cần chúng ta có thể chọn `method` mà chúng ta muốn qua các `class` triển khai `interface` này một cách dễ dàng.
-  - `Class` Context là đại diện cho các `class` muốn sử dụng nhóm các `method` mà `Interface Strategy` cung cấp.
-
+  - `Context`: `Class` sử dụng các `strategy object` và chỉ giao tiếp với các `strategy object` thông qua `interface`.
+  - `Strategy`: Cung cấp một `interface` chung cho `context` giao tiếp với các `strategy object`.
+  - `Concrete Strategy`: Implement các thuật toán khác nhau cho context sử dụng
+  - `Client`: Có trách nhiệm tạo ra các `strategy object` và truyền vào cho `context` sử dụng.
 ## Solution apply
 - Áp dụng `Strategy pattern` vào problem trên ta có thiết kế sau.
 <p align = "center">
     <img width = 80%  src="diagram.png">
 </p>
+
+## Advantages and disadvantages
+### Advantages
+- Có thể thay thế các thuật toán linh hoạt với nhau
+- Tách biệt phần thuật toán khỏi phần sử dụng thuật toán
+- Có thể thay thế việc kế thừa bằng việc `encapsulate` thuật toán
+- Tăng tính `open-closed`: Khi thay đổi thuật toán hoặc khi thêm mới thuật toán, không cần thay đổi code phần context.
+### Disadvantages
+- Không nên áp dụng nếu chỉ có một vài xử lý và hiếm khi thay đổi.
+- Client phải nhận biết được sự khác biệt giữa các strategy.
