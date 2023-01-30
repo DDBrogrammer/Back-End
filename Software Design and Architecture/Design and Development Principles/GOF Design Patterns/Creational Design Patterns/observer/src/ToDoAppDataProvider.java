@@ -25,6 +25,7 @@ public class ToDoAppDataProvider implements  Subject{
     }
 
     public void setAppData(String appData) {
+        System.out.println("ToDoAppDataProvider get new data: "+appData);
         this.appData = appData;
         notifyObserver();
     }
