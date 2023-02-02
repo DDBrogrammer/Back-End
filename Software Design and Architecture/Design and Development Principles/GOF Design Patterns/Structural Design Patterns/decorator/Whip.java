@@ -1,0 +1,2 @@
+public class Whip  extends{
+}
