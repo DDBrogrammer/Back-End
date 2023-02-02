@@ -22,9 +22,9 @@ public class LocalVariableTest {
 b is bigger
 ```
 
-## `if statement` 
+## `if statement`
 - `if statement` là điều kiện đầu tiên được sử dụng để mở đầu cho các câu lệnh 
-điều kiện sau
+điều kiện
 
 ```java
 public class Day {

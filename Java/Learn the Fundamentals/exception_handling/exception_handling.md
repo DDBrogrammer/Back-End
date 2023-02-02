@@ -1,12 +1,12 @@
 # Exception Handling
-- `Exception`là một`unwanted`hay`unexpected event`, xảy ra trong quá trình program đang
-được execute, tức là đang trong`run time,`làm gián đoạn`flow`của program.
+- `Exception`là một`unwanted / unexpected event`, xảy ra trong quá trình program đang
+được execute, tức là đang trong`run time`, làm gián đoạn`flow`của chương trình.
 - `Exception Handling`trong Java là một trong những cơ chế hiệu quả để xử lý các
 `runtime errors`như`ClassNotFoundException`,`IOException`,`SQLException`,
 `RemoteException`, v.v. để có thể duy trì `flow` thông thường của ứng dụng.
 
 ## `Exception Hierarchy`
-- Tất cả các`Exception`và`Error`là các`subclass`của class`Throwable`, là`base class` 
+- Tất cả các`Exception`và`Error`là các`subclass`của class`Throwable`: `base class` 
 của hệ thống phân cấp rồi rẽ đến hai nhánh do`Exception`và`Error`đứng đầu.
   - `Exception:`được sử dụng cho các`conditions`đặc biệt mà program của người dùng sẽ 
   `catch` được.
@@ -121,7 +121,7 @@ Stack`. Bây giờ các bước sau đây sẽ xảy ra.
   - Nếu`run-time system`tìm kiếm tất cả các phương thức trên` call stack`và không 
   thể tìm thấy`appropriate handler`, thì`run-time system`sẽ chuyển`exception object`
   sang trình`default exception handler`. `Handler`này sẽ in thông tin`exception`ở 
-  định dạng theo format bên dưới và chấm dứt chương trình một cách `abnormally`.
+  định dạng theo format bên dưới và chấm dứt chương trình một cách bất thường.
     ```shell
     Exception in thread "xxx" Name of Exception : Description
     ... ...... ..  // Call Stack
