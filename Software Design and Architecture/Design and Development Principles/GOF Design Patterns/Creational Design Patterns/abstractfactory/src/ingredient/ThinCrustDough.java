@@ -1,2 +1,4 @@
-package ingredient;public class ThinCrustDough {
+package ingredient;
+
+public class ThinCrustDough implements   Dough{
 }

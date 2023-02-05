@@ -1,2 +1,4 @@
-package ingredient;public class EggPlant {
+package ingredient;
+
+public class EggPlant implements Veggies{
 }

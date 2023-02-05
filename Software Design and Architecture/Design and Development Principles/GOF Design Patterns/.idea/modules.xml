@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GOF Design Patterns.iml" filepath="$PROJECT_DIR$/.idea/GOF Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/abstractfactory/abstractfactory.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/abstractfactory/abstractfactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral Design Patterns/command/command.iml" filepath="$PROJECT_DIR$/Behavioral Design Patterns/command/command.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural Design Patterns/decorator/decorator.iml" filepath="$PROJECT_DIR$/Structural Design Patterns/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/factorymethod/factorymethod.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/factorymethod/factorymethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral Design Patterns/observer/observer.iml" filepath="$PROJECT_DIR$/Behavioral Design Patterns/observer/observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/simplefactory/simplefactory.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/simplefactory/simplefactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/singleton/singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral Design Patterns/strategy/strategy.iml" filepath="$PROJECT_DIR$/Behavioral Design Patterns/strategy/strategy.iml" />
     </modules>
   </component>

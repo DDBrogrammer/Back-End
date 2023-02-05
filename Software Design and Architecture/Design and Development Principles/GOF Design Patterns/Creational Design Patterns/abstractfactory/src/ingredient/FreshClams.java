@@ -1,2 +1,4 @@
-package ingredient;public class FreshClams {
+package ingredient;
+
+public class FreshClams implements Clams {
 }

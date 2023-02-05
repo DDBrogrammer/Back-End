@@ -1,2 +1,4 @@
-package ingredient;public class Garlic {
+package ingredient;
+
+public class Garlic implements Veggies{
 }

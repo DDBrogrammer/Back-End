@@ -1,2 +1,4 @@
-package ingredient;public class RedPepper {
+package ingredient;
+
+public class RedPepper implements Veggies{
 }

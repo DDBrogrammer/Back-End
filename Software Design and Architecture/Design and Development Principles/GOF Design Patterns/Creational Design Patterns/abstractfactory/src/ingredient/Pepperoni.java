@@ -1,2 +1,4 @@
-package ingredient;public class Pepperoni {
+package ingredient;
+
+public interface Pepperoni {
 }

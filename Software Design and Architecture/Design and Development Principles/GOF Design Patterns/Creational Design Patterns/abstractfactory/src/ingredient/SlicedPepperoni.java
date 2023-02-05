@@ -1,2 +1,4 @@
-package ingredient;public class SlicedPepperoni {
+package ingredient;
+
+public class SlicedPepperoni extends Pepperoni{
 }

@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Command {
+package simplecommand;
+
+public interface Command {
+    public  void execute();
 }

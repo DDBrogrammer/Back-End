@@ -1,2 +1,4 @@
-package ingredient;public class Veggies {
+package ingredient;
+
+public interface Veggies {
 }

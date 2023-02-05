@@ -1,2 +1,15 @@
-package simplecommand;public class SimpleRemoteControle {
+package simplecommand;
+// Receiver
+public class SimpleRemoteControl {
+    Command slot;
+
+    public SimpleRemoteControl(){
+    }
+    public void setCommand(Command command){
+        slot=command;
+    }
+
+    public  void  buttonWasPressed(){
+        slot.execute();
+    }
 }

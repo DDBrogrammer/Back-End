@@ -1,2 +1,4 @@
-package ingredient;public class PlumTomatoSauce {
+package ingredient;
+
+public class PlumTomatoSauce implements Sauce{
 }

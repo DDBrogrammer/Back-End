@@ -1,2 +1,4 @@
-package ingredient;public class FrozenClams {
+package ingredient;
+
+public class FrozenClams implements Clams{
 }

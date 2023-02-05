@@ -1,2 +1,4 @@
-package ingredient;public class Mushroom {
+package ingredient;
+
+public class Mushroom extends Veggies{
 }

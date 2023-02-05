@@ -1,2 +1,4 @@
-package ingredient;public class BlackOlives {
+package ingredient;
+
+public class BlackOlives implements Veggies{
 }

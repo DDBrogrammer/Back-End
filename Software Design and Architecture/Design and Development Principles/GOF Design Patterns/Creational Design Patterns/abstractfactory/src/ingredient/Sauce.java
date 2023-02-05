@@ -1,2 +1,4 @@
-package ingredient;public class Sauce {
+package ingredient;
+
+public interface Sauce {
 }

@@ -62,7 +62,7 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
 - `Behavioral Design Patterns` dùng trong thực hiện các hành vi của `object`, sự giao tiếp giữa các `object` với nhau.
 - `Behavioral Design Patterns` bao gồm:
   - `Chain of Responsibility`
-  - `Command`
+  - `simplecommand.Command`
   - `Interpreter`
   - `Iterator`
   - `Mediator`

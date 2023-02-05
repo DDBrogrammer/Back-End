@@ -1,2 +1,4 @@
-package ingredient;public class Clams {
+package ingredient;
+
+public interface Clams {
 }

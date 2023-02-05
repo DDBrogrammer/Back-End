@@ -1,4 +1,4 @@
-package simplecommand;
+package Command;
 
 public class LightOnCommand implements Command {
     Light light;
@@ -7,7 +7,7 @@ public class LightOnCommand implements Command {
         this.light = light;
     }
 
-    public void execute(){
+    public void execute() {
         light.on();
     }
 }

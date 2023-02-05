@@ -1,2 +1,4 @@
-package ingredient;public class MarinaraSauce {
+package ingredient;
+
+public class MarinaraSauce extends  Sauce{
 }

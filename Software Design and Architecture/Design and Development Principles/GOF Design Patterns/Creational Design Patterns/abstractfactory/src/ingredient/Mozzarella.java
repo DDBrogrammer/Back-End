@@ -1,2 +1,4 @@
-package ingredient;public class Mozzarella {
+package ingredient;
+
+public class Mozzarella implements Cheese{
 }

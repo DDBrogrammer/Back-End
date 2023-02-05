@@ -1,2 +1,4 @@
-package ingredient;public class Dough {
+package ingredient;
+
+public interface Dough {
 }
