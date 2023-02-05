@@ -109,11 +109,11 @@ public class Demo {
 ```
 ```shell
 Enter the number: 24
-12 is even
+24 is even
 ```
 ```shell
 Enter the number: 3
-12 is odd
+3 is odd
 ```
 
 # `More Method Types`
