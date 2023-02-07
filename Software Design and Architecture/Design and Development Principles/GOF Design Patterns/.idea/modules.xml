@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GOF Design Patterns.iml" filepath="$PROJECT_DIR$/.idea/GOF Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/abstractfactory/abstractfactory.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/abstractfactory/abstractfactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural Design Patterns/adapter/adapter.iml" filepath="$PROJECT_DIR$/Structural Design Patterns/adapter/adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral Design Patterns/command/command.iml" filepath="$PROJECT_DIR$/Behavioral Design Patterns/command/command.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural Design Patterns/decorator/decorator.iml" filepath="$PROJECT_DIR$/Structural Design Patterns/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/factorymethod/factorymethod.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/factorymethod/factorymethod.iml" />

@@ -1,7 +1,7 @@
 # Gang of Four Design Patterns
 ## Introduction
  <p align = "center">
-    <img width = 80%  src="img.png">
+    <img width = 80%  src="images/img.png">
 </p>
 
 - Hello :grin:, DDBrogrammer chào mừng bạn đến với series Design Patterns. Trong series này chúng ta sẽ cùng nhau lĩnh hội bí kíp võ công của coder: `Gang of Four Design Patterns`.
@@ -12,7 +12,7 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
 ## Be Careful
 
  <p align = "center">
-    <img width = 80%  src="img_1.png">
+    <img width = 80%  src="images/img_1.png">
 </p>
 
 - Học một loại võ một cách gò bó, ép buộc rất dễ gây tẩu hỏa nhập ma. Đối với `Design patterns` học hời hợt, áp dụng sai hoặc không cần thiết cũng dễ gây ra phản tác dụng.
@@ -27,7 +27,7 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
 ### Creational Design Patterns
 
  <p align = "center">
-    <img width = 80%  src="img_2.png">
+    <img width = 80%  src="images/img_2.png">
 </p>
 
 - `Creational Design Patterns` cung cấp một giải pháp để tạo ra các `object` và che giấu được logic của việc tạo ra nó.
@@ -41,7 +41,7 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
 ### Structural Design Patterns
 
  <p align = "center">
-    <img width = 80%  src="img_3.png">
+    <img width = 80%  src="images/img_3.png">
 </p>
 
 - `Structural Design Patterns` tập trung vào tổ chức, cấu trúc các `class` và thành phần của `object`.
@@ -56,7 +56,7 @@ tiền bối đã tổng hợp lại những bí kíp võ công, những mẫu t
 ### Behavioral Design Patterns
 
  <p align = "center">
-    <img width = 80%  src="img_5.png">
+    <img width = 80%  src="images/img_5.png">
 </p>
 
 - `Behavioral Design Patterns` dùng trong thực hiện các hành vi của `object`, sự giao tiếp giữa các `object` với nhau.
