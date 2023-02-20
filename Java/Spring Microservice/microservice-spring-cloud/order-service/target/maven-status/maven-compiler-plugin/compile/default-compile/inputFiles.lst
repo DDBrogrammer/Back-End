@@ -1,0 +1,10 @@
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\config\WebClientConfig.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\model\OrderLineItems.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\dto\OrderLineItemsDto.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\repository\OrderRepository.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\model\Order.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\OrderServiceApplication.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\dto\InventoryResponse.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\service\OrderService.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\controller\OrderController.java
+D:\Learnspace\FullStack Developer\Backend\Java\Spring Microservice\microservice-spring-cloud\order-service\src\main\java\com\example\orderservice\dto\OrderRequest.java
